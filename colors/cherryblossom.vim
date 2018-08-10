@@ -32,7 +32,7 @@ let s:white             = { "gui": "#EAE8E7", "cterm": "231" }
 
 let s:gray              = { "gui": "#979391", "cterm": "247" }
 
-let s:green             = { "gui": "#30B536", "cterm": "34"  }
+let s:green             = { "gui": "#BBE67E", "cterm": "34"  }
 let s:pink              = { "gui": "#D36DD3", "cterm": "170" }
 let s:orange            = { "gui": "#FC923F", "cterm": "208" }
 let s:purple            = { "gui": "#B586E7", "cterm": "141" }
@@ -194,7 +194,7 @@ call s:hi("Visual",         {"gui": "reverse", "cterm": "reverse", "term": "reve
 call s:hi("VisualNOS",      {"gui": "bold,underline", "cterm": "bold,underline", "term": "bold,underline"})
 call s:hi("WarningMsg",     {"fg": s:orange, "gui": "bold", "cterm": "bold", "term": "bold"})
 call s:hi("WildMenu",       {"fg": s:norm, "bg": s:blue_bg})
-call s:hi("Folded",         {"fg": s:green_fg, "bg": s:gray_bg})
+call s:hi("Folded",         {"fg": s:pink_fg, "bg": s:light_gray})
 call s:hi("FoldColumn",     {"fg": s:green_fg, "bg": s:gray_bg})
 call s:hi("DiffAdd",        {"bg": s:green_bg})
 call s:hi("DiffChange",     {"bg": s:yellow_bg})
